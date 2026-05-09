@@ -1,0 +1,43 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+window {
+    background-color: #000000;
+    color: #ffffff;
+    border: 5px solid #4a4e52;
+    border-radius: 1px;
+}
+
+#outer-box {
+    padding: 20px;
+}
+
+#input {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #4a4e52;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#entry {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #4a4e52;
+}
+
+#text:selected {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* --- MESSAGE: Clarity found. Execution begins. --- */

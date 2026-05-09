@@ -1,0 +1,43 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#custom-launcher,
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#battery,
+#tray {
+    background: #000000;
+    color: #ffffff;
+    padding: 0px 15px;
+    border-radius: 12px;
+    border: 1px solid #4a4e52;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: #4a4e52;
+    border-radius: 8px;
+}
+
+#clock {
+    color: #cfc9c2;
+    font-weight: bold;
+}
+
+/* --- MESSAGE: Floating above the waves of data. --- */

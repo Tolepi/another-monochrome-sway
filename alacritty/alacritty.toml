@@ -1,0 +1,46 @@
+[window]
+opacity = 0.80
+
+[font]
+size = 11.2
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+# Colores
+
+[colors.primary]
+background = '#000000'
+foreground = '#e0e0e0'
+
+[colors.cursor]
+text = '#121212'
+cursor = '#eeeeee'
+
+[colors.selection]
+text = '#121212'
+background = '#eeeeee'
+
+[colors.normal]
+black = '#1c1c1c'
+red = '#4e4e4e'
+green = '#767676'
+yellow = '#949494'
+blue = '#acacac'
+magenta = '#c6c6c6'
+cyan = '#e4e4e4'
+white = '#eeeeee'
+
+[colors.bright]
+black = '#444444'
+red = '#626262'
+green = '#8a8a8a'
+yellow = '#b0b0b0'
+blue = '#c6c6c6'
+magenta = '#dadada'
+cyan = '#f0f0f0'
+white = '#ffffff'
+
+[window.padding]
+x = 15
+y = 15
+
+# --- MESSAGE: Terminal active. Like a light in the storm. ---

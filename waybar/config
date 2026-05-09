@@ -1,0 +1,44 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 15,
+    "margin-right": 15,
+    "height": 34,
+    "spacing": 10,
+    "modules-left": ["custom/launcher", "sway/workspaces", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "pulseaudio", "battery", "tray"],
+
+    "custom/launcher": {
+        "format": "  ",
+        "on-click": "wofi --show drun",
+        "tooltip": false
+    },
+    "sway/workspaces": {
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "default": ""
+        }
+    },
+    "clock": {
+        "format": "  {:%H:%M}",
+        "format-alt": "󰃭  {:%A, %B %d}",
+        "tooltip": false
+    },
+    "cpu": { "format": "  {usage}%" },
+    "memory": { "format": "  {}%" },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟",
+        "format-icons": ["󰕿", "󰖀", "󰕾"]
+    }
+}
+
+// --- MESSAGE: The horizon is dark, but the status is clear. ---
